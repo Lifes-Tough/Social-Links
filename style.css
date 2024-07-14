@@ -9,13 +9,18 @@ body{
 }
 
 .card{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: hsl(0, 0%, 12%);
     margin: auto;
     text-align: center;
-    border-radius: 5px;
-    width: 250px;
-    height: 450px;
-    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    height: 520px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 img{
@@ -23,11 +28,41 @@ img{
 }
 
 h1{
-    color: white;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 h2{
     color: greenyellow;
-    font-size: 10px;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+p{
+    color: white;
+    font-size: 13px;
+}
+
+.name{
+    color: white;
+}
+
+.links{
+    color: white;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    display: inline-flex;
+    justify-content: center;
+    padding: 3px;
+    width: 290px;
+    margin: 8px;
+}
+
+.links:hover{
+    background-color: greenyellow;
+    color: black;
+    cursor: pointer;
+}
+
+.socials{
+    font-size: 12px;
 }

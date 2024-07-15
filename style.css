@@ -8,14 +8,19 @@ body{
     background-color: hsl(0, 0%, 8%);
 }
 
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .card{
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: hsl(0, 0%, 12%);
-    margin: auto;
-    text-align: center;
     border-radius: 10px;
     width: 350px;
     height: 520px;
